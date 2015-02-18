@@ -1,0 +1,18 @@
+#header{
+	background: #EFF2EF;
+	margin: 40px 0;
+	text-align: center;
+	ul{
+		li{
+			display: inline;
+			padding: 0 55px;
+			a{
+				font-size: 32px;
+				transition: 0.4s;
+				&:hover{
+					color:#000;
+				}
+			}
+		}
+	}
+}
