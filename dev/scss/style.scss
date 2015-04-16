@@ -1,0 +1,12 @@
+@import 'reset';
+@import 'fonts';
+@import 'base';
+@import 'grid';
+
+@import 'header';
+@import 'content';
+@import 'footer';
+
+@media only screen and (max-width: 800px) {
+  @import "_responsive/max_width_767";
+}
